@@ -331,6 +331,19 @@ body {
   font-weight: 600;
 }
 
+.current-read {
+  font-style: italic;
+  color: var(--text-muted);
+  border-left: 3px solid var(--accent);
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
+.current-read strong {
+  color: var(--text-primary);
+  font-style: normal;
+}
+
 .about-highlights {
   display: flex;
   gap: 24px;
