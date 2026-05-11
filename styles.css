@@ -344,6 +344,12 @@ body {
   font-style: normal;
 }
 
+.reviewer-info {
+  border-left: 3px solid var(--gradient-end);
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
 .about-highlights {
   display: flex;
   gap: 24px;
